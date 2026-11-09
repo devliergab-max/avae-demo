@@ -1,0 +1,7 @@
+:root { --bg:#faf7f2; --ink:#2b2118; --accent:#6f4e37; }
+* { box-sizing: border-box; } body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+header { display:flex; justify-content:space-between; align-items:center; padding:18px 32px; background:var(--accent); color:#fff; }
+header a { color:#fff; margin-left:16px; text-decoration:none; }
+main { max-width:900px; margin:0 auto; padding:32px; }
+#items { display:grid; gap:12px; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); list-style:none; padding:0; }
+#items li { background:#fff; border:1px solid #e5dccf; border-radius:12px; padding:16px; }
